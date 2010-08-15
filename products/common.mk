@@ -90,6 +90,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES +=  \
     vendor/cyanogen/proprietary/RomManager.apk:system/app/RomManager.apk \
+    vendor/cyanogen/proprietary/Superuser.apk:system/app/Superuser.apk
 
 # Always run in insecure mode, enables root on user build variants
 #ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
